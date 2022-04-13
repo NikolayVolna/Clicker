@@ -1,0 +1,29 @@
+/* /----------------------------------------------------------------------------------------- */
+
+.clicker {
+    min-height: 100vh;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.clicker__control {
+    background: url(./image/biscuit.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 1;
+    width: 300px;
+    border: none;
+    cursor: pointer;
+}
+
+.clicker__control:active {
+    transform: translateY(5px);
+}
+
+
+/* /------------------------------------------------------------------------------------ */
